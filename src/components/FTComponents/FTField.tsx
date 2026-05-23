@@ -6,7 +6,7 @@ import { KeyboardTypeOptions, Pressable, Text, TextInput, View, ViewStyle } from
 type FTFieldProps = {
     label?: string
     /**
-     * 'default' = uppercase xs gray-500 (profile/settings style)
+     * 'default' = uppercase xs gray-500 (profile/settings styles)
      * 'auth'    = sm gray-700 (sign-in / sign-up style)
      */
     labelVariant?: 'default' | 'auth'
